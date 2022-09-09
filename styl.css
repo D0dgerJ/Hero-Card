@@ -62,12 +62,12 @@ body {
   }
   .card:hover .front {
     transform: rotateY(180deg);
-    transition: ease;
+    transition-duration: 5s;
   }
 
   .card:hover .back {
     transform: rotateY(360deg);
-    transition: ease;
+    transition-duration: 5s;
   }
   .top-left {
     font-size: 30px;
